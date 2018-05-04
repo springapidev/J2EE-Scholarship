@@ -1,0 +1,23 @@
+meta element and advantage
+Ans: The <meta> tag provides metadata about the HTML document. Metadata will not be displayed on the page, but will be machine parsable. Meta elements are typically used to specify page description, keywords, author of the document, last modified, and other metadata.
+
+Diff btn link and anchor
+Ans: 
+structured and flowchart diff
+Ans: 
+map
+canvas
+mark
+how many types of list.
+programming process.
+transaction file.
+modular programming
+html4 and html5 difference
+diff btn internal and external subroutine.
+advantage of high level language
+debugging and testing
+flowchart of adding numbers btn 1 to 100.
+
+
+mcq: wbr
+frameset attributes
