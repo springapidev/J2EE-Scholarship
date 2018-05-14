@@ -1,0 +1,100 @@
+#container{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#header{
+   width: 100%;
+    height: 80px;
+   background: #ccc; 
+}
+
+#header-left{
+    width: 10%;
+    height: 80px;
+    float: left;
+}
+#header-right{
+    width: 90%;
+    height: 80px;
+    float: left;
+}
+.title{
+    color: indigo;
+    text-align: center;
+}
+
+#menu{  
+   width: 100%;
+    height: 35px;
+   background: #065; 
+   text-align: center;
+}
+#menu a{
+ text-decoration: none;  
+padding: 0px 25px; 
+line-height: 2;
+color: #fff;
+font-weight: 900;
+}
+#menu a:hover{
+text-decoration: none;  
+padding: 0px 25px; 
+line-height: 2;
+color: #c09;
+font-weight: 900;
+}
+/**********************Body Start*************/
+#body{
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+   
+}
+#bleft{
+   width: 25%;
+    min-height: 400px;
+   height: auto;
+   background: #ffcccc; 
+   float: left;
+}
+#bcontent{
+   width: 50%;
+    min-height: 400px;
+   height: auto;
+   background: #fff; 
+    float: left;
+}
+#bright{
+   width: 25%;
+    min-height: 400px;
+   height: auto;
+   background: #ffcccc; 
+    float: left;
+}
+/*********************Body End***********/
+#footer{
+   width: 100%;
+   height: 250px;
+   background: #ccc;      
+}
+.foot{
+  width: 33.33%;
+float: left;
+height: 250px;   
+}
+#copyright{
+   width: 100%;
+   height: 40px;
+   background: #000;  
+   color: #fff;
+}
+.para{
+    line-height: 2.5;
+    text-align: center;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+    padding:0px 10px;
+}

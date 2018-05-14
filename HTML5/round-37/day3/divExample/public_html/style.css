@@ -1,0 +1,50 @@
+#maincontainer{
+    width: 80%;
+    height: 400px;
+    background: #ccc;
+    margin: 0 auto;
+}
+
+#headercontainer{
+     width: 100%;
+    height: 80px;
+    background: #065;
+    margin: 0 auto;
+}
+
+
+#bodycontainer{
+     width: 100%;
+    height: 270px;
+    background: #038;
+    margin: 0 auto;
+}
+
+#left{
+    width: 30%;
+    height: 270px;
+    background: #444;    
+    float: left;
+}
+#right{
+    width: 70%;
+    height: 270px;
+    background: #fff;    
+    float: left;
+}
+
+
+
+#footercontainer{
+     width: 100%;
+    height: 50px;
+    background: #ccc;
+    margin: 0 auto;
+}
+
+.footerbottom{
+    width: 9.87%;
+    float: left;
+    border-right: 1px solid #065;
+    
+}
