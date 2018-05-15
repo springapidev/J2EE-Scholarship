@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container{
+	width:80%;
+	height:auto;
+	margin:0 auto;
+	}
+.row{
+	width:100%;
+	height:auto;
+	}
+	/*Css For Header Part*/
+.header-left{
+	width:30%;
+	height:100px;
+	float:left;
+	background:#999;
+	}
+.header-right{
+	width:70%;
+	height:100px;
+	float:left;
+	background:#CCC;
+	}
+	/*Css For Content Part*/
+.full-column{
+		width:100%;
+		background:#9FC;
+		text-align:center;
+	}
+.full-column>a{
+	color:#333;
+	text-decoration:none;
+	padding:0px 15px;
+	}	
+	
+.full-column>a:hover{
+	color:#099;
+	text-decoration:none;
+	padding:0px 15px;
+	border-bottom:4px solid #F36;
+	}
+/*Css For Content Part*/
+.content-left{
+	width:30%;
+	height:400px;
+	float:left;
+	background:#999;
+	}
+
+.content-right{
+	width:70%;
+	height:400px;
+	float:left;
+	background:#fff;
+	}
+/* Css For Footer*/
+.one-third{
+	width:33.33%;
+	height:200px;
+	float:left;
+	background:#FFC;
+	}
+/*Common Css*/
+p,h1,h2{padding:0 10px;}
+
+/* left Menu Css*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   
+	}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+	border-bottom:1px dashed #000;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+a{
+	text-decoration:none;
+}
+.title{
+	color:green;
+	}
+/* Form Css */
+.form-left{
+	width:29%;
+	float:left;
+	padding-left:1%;
+	}
+
+.form-right{
+	width:69%;
+	float:left;
+	padding-left:1%;
+	}
