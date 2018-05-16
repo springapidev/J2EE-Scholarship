@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div>
+        <fieldset>
+            <legend>Registration</legend>
+            <form method="post" action="#">
+                <label>First Name:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="Enter First Name" required/>
+                <br/>
+
+                <label>Last Name:</label>
+                <input type="text" name="lastName" placeholder="Enter Last Name" />
+                <br/>
+
+                <label>Gender:</label>
+                <input type="radio" name="gender" value="Male" checked="checked"/> Male
+                <input type="radio" name="gender" value="Female"/> Female
+                <br/>
+
+                <label>Hobby:</label>
+                <input type="checkbox" name="reading" value="reading" checked="checked"/>Reading
+                <input type="checkbox" name="coding" value="coding"/>Coding
+                <input type="checkbox" name="playing" value="playing" checked="checked"/>Playing
+                <input type="checkbox" name="running" value="running"/>Running
+                <br/>
+                
+                <label>Country:</label>
+                <select name="country">
+                    <option>Select a Country </option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="Russia">Russia</option>
+                    <option value="China">China</option>
+                    <option value="Iran">Iran</option>
+                    <option value="Turkey">Turkey</option>
+                    <option value="Libia">Libia</option>
+                </select>
+                <br/>
+                <label>Message</label>
+                <textarea name="msg" rows="5" cols="20">
+                    
+                </textarea>
+                
+                <br/>
+                <input type="checkbox" checked="checked" name="subscribe"/>Yes. I am a Current Subscriber.
+                
+                <br/>
+                <input type="reset" value="Reset Form"/>
+                <input type="submit" value="Submit"/>
+
+            </form>
+        </fieldset>
+    </body>
+</html>

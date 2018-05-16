@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <div id="container">
+            <div id="header"><h1>Student Registration Form</h1></div>
+            <div id="mainbody">
+                <div id="left"><img src="images/left.png" width="100%" height="auto" alt="Left SideBar"/></div>
+                <div id="right">
+
+                    <fieldset>
+                        <legend>Registration Here</legend>
+                        <form>
+                            <div class="form-container">
+                                <div class="labels"> <label>First Name:</label></div>
+                                <div class="fields"> <input type="text" name="firstName" id="firstName" placeholder="Enter First Name" required/></div>
+                            </div>
+
+                            <div class="form-container">
+                                <div class="labels"> <label>Last Name:</label></div>
+                                <div class="fields">   <input type="text" name="lastName" placeholder="Enter Last Name" /></div>
+                            </div>
+
+                            <div class="form-container">
+                                <div class="labels">  <label>Gender:</label></div>
+                                <div class="fields">  
+                                    <input type="radio" name="gender" value="Male" checked="checked"/> Male
+                                    <input type="radio" name="gender" value="Female"/> Female
+                                </div>
+                            </div>
+
+                            <div class="form-container">
+                                <div class="labels"> <label> <label>Hobby:</label></label></div>
+                                <div class="fields">                                   
+                                    <input type="checkbox" name="reading" value="reading" checked="checked"/>Reading
+                                    <input type="checkbox" name="coding" value="coding"/>Coding
+                                    <input type="checkbox" name="playing" value="playing" checked="checked"/>Playing
+                                    <input type="checkbox" name="running" value="running"/>Running
+                                </div>
+                            </div>
+
+                            <div class="form-container">
+                                <div class="labels"> <label>Country:</label></div>
+                                <div class="fields"> 
+                                    <select name="country">
+                                        <option>Select a Country </option>
+                                        <option value="Bangladesh">Bangladesh</option>
+                                        <option value="Russia">Russia</option>
+                                        <option value="China">China</option>
+                                        <option value="Iran">Iran</option>
+                                        <option value="Turkey">Turkey</option>
+                                        <option value="Libia">Libia</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-container">
+                                <div class="labels"> <label>Message:</label></div>
+                                <div class="fields"> 
+                                    <textarea name="msg" rows="5" cols="20">                
+                                    </textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-container">
+                                <div class="labels"> <label></label></div>
+                                <div class="fields">
+                                    <input type="checkbox" checked="checked" name="subscribe"/>Yes. I am a Current Subscriber.  
+                                </div>
+                            </div>
+
+                            <div class="form-container">
+                                <div class="labels"> <label></label></div>
+                                <div class="fields"> 
+                                    <input type="reset" value="Reset"/>
+                                    <input type="submit" value="Submit"/>
+                                </div>
+                            </div>
+
+                        </form>
+                    </fieldset>
+
+                </div>
+            </div>
+            <div id="footer">
+                <marquee>Hello Students, How do you feel now?</marquee>
+                <p>&copy; 2018,CoderBD.com, All rights reserved.</p>
+            </div>
+
+        </div>
+    </body>
+</html>
