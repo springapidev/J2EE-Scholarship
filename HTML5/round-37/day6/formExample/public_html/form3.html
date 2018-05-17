@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <div>TODO write content</div>
+        <fieldset> 
+            <legend>Form 2</legend>
+            <form>
+                <label>Full Name(Autofocus)</label>
+                <input type="text" name="fullname" autofocus="autofocus"/>
+                <br/>
+
+                <label>Max Length</label>
+                <input type="text" name="abc" maxlength="3"/>
+                <br/>
+                <label>Age Length</label>
+                <input type="range" name="age"/>
+                <br/>
+                <label>Date Of Birth, Default</label>
+                <input type="date" name="dob" />
+                <br/>
+                <label>Date Of Join, dd-MM-YYYY</label>
+                <input type="datetime" name="joiningdate" />
+                <br/>
+                <label>Full Name(Autofocus)</label>
+                Country code: <input type="text" name="country_code" maxlength="3" 
+                                     pattern="[A-Za-z]{3}" title="Three letter country code">
+                <br/>
+                Password: <input type="password" name="pw" pattern=".{6,}" title="Six or more characters">
+                <br/>
+                Password: <input type="password" name="pw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+                <br/>
+                <input type="submit" value="Send"/>
+            </form>
+        </fieldset>
+    </body>
+</html>
