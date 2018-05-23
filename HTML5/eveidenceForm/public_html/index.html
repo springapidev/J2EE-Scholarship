@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="display.html">
+            <input type="text" name="ID" required/><br/>
+            <input type="text" name="Fullname" required/><br/>
+            Male:<input type="radio" name="Gender" value="Male"/>
+            Female:<input type="radio" name="Gender" value="Female"/><br/>
+             Reading: <input type="checkbox" name="Hobby" value="Reading"/>
+            Writing:<input type="checkbox" name="Hobby" value="Writing"/>
+            Playing:<input type="checkbox" name="Hobby" value="Playing"/>
+            
+            
+            <input type="submit"  value="Send" onSubmit="sendFormData()"/>
+        </form>
+        <script>
+            function sendFormData() {
+                var value1 = "value1";
+                var value2 = "value2";
+                var value3 = "value3";
+                 var value4 = "value4";
+                var queryString = "?para1= " + value1 + "&para2= " + value2 + "&para3= " + value3 + "&para4= " + value4;
+                window.location.href = "display.html" + queryString;
+            }
+        </script> 
+    </body>
+</html>
