@@ -11,25 +11,39 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <form action="display.html">
-            <input type="text" name="ID" required/><br/>
+        <div style="width:500px; margin: 0 auto; background: #ffff99">
+            <form action="display.html" style="padding: 7px;">
+            <label>ID</label>                
+            <input type="number" name="ID" required/><br/>
+            <label>Fullname</label>    
             <input type="text" name="Fullname" required/><br/>
+            <label>Gender</label>
             Male:<input type="radio" name="Gender" value="Male"/>
             Female:<input type="radio" name="Gender" value="Female"/><br/>
-             Reading: <input type="checkbox" name="Hobby" value="Reading"/>
+            <label>Hobby</label>
+            Reading: <input type="checkbox" name="Hobby" value="Reading"/>
             Writing:<input type="checkbox" name="Hobby" value="Writing"/>
-            Playing:<input type="checkbox" name="Hobby" value="Playing"/>
-            
-            
+            Playing:<input type="checkbox" name="Hobby" value="Playing"/><br/>
+            <label>Round</label>
+            <select name="Round">
+                <option>Select Round</option>
+                <option value="Round-36">Round-36</option>
+                <option value="Round-37">Round-37</option>
+                <option value="Round-38">Round-38</option>
+            </select>
+            <br/><br/><br/>
+            <input type="reset"  value="Reset" />
             <input type="submit"  value="Send" onSubmit="sendFormData()"/>
         </form>
+        </div>
         <script>
             function sendFormData() {
                 var value1 = "value1";
                 var value2 = "value2";
                 var value3 = "value3";
-                 var value4 = "value4";
-                var queryString = "?para1= " + value1 + "&para2= " + value2 + "&para3= " + value3 + "&para4= " + value4;
+                var value4 = "value4";
+                var value5 = "value5";
+                var queryString = "?para1= " + value1 + "&para2= " + value2 + "&para3= " + value3 + "&para4= " + value4 + "&para5= " + value5;
                 window.location.href = "display.html" + queryString;
             }
         </script> 
