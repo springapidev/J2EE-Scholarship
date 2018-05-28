@@ -1,0 +1,7 @@
+   While Loop: 
+                get our number 
+                set our initial count to 0 
+                while our number is greater than 1 
+                  divide the number by 2 
+                  increase our count by 1 
+                end 
