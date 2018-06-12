@@ -40,10 +40,21 @@
             document.write("<hr/>");
             var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
             var sum4 = 0;
+
             for (var i in numbers) {
                 sum4 += numbers[i];
             }
             document.write("Sum using For In Loop: " + sum4);
+            document.write("<hr/>");
+            var students = ['mahbub', 'Mehedee', 'sofiqul', 'mortoza', 'mustafiz'];
+           
+            for (var i in students) {
+                if (students[i] == 'mahbub' || students[i] == 'mortoza') {
+                    continue;
+                }
+                document.write(students[i] + "<br/>");
+            }
+
         </script>
     </body>
 </html>
