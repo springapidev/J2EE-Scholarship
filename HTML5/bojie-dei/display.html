@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+         <div style="width:500px; margin: 0 auto; background: #ffff99">
+        <script>
+            var queryString = decodeURIComponent(window.location.search);
+            queryString = queryString.substring(1);
+            var queries = queryString.split("&");
+            for (var i = 0; i < queries.length; i++)
+            {
+            document.write(queries[i] + "<br>");
+            }
+		
+            </script>
+         </div>
+        </body>
+        </html>
