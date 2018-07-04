@@ -1,23 +1,23 @@
 JavaScript Chapter-01
 
 Q-1. What is JavaScript?
-Ans. 
+Ans. JavaScript is the "engine" that makes things move on a page; by working with dynamic design elements.
 Q-2. What can you learn from JavaScript?
-Ans. 
+Ans. we can learn rollovers, moving text, prompt windows, alert boxes etc by using JavaScript.
 Q-3. JavaScript is a ranged language, explain.
-Ans.
+Ans.JavaScript is a ranged language. It ranges from extremely simple built in functions and statements that can make pages jump to fairly sophisticated coding structures.
 Q-4.What is the relation between JavaScript and Compiler?
 Ans.
 Q-5.What is the relation between JavaScript and User Events?
 Ans.
 Q-6. What is HTML?
-Ans.
+Ans. HTML stands for Hypertext Markup Language. It is a standardized system for tagging text files to achieve font, color, graphic and hyperlink effects.
 Q-7.What is the most event-related attribute in HTML? Write 5 event-related attributes of HTML.
 Ans. 
 Q-8. HTML has no dynamic components, True or False? Explain.
 Ans. True, HTML itself has no dynamic components, it relays on scripts wrriten in JavaScript.
 Q-9. Where to put JavaScript into a HTML page?
-Ans.
+Ans. Most JavaScript is wrriten in a tag container named script.
 Q-10. <script> tag must need its end </script> tag, True or False?
 Ans. True.
 Q-11. In debugging your script, the first thing to check is to make sure that you put both tags, True or False?
@@ -25,25 +25,28 @@ Ans. True
 Q-12. In HTML5, JavaScript must need language attribute within <script> tag, True or False?
 Ans. False
 Q-13. What is JavaScript Parser?
-Ans.
+Ans. The Parser is the interpreter that reads the code one line at a time, begining with the top line.
 Q-14. What do you mean by dynamic interactivity?
 Ans.
 Q-15. What are the main features of JavaScript?
-Ans.
+Ans.1. JavaScript can add to a web site dynamic interactivity
+2. It is an object-based scripting language.
+3. It handiling dates and time.
 Q-16. What is alert() in JavaScript? Give an example.
-Ans.
+Ans. Alert is a useful built in function in JavaScript. It sends a message to the page. The content of the  message can vary depending on what the user does or message can be staticl
 Q-17. What is JavaScript function?
-Ans.
+Ans. Functions are self-contained clusters of JavaScript. It works and launched in the same way. It is used in two ways- (i) Alert (ii) user-defined.
 Q-18. What are JavaScript built-in functions and User defined functions?
 Ans.
 Q-19.What is prompt() in JavaScript? Give an example.
-Ans.
+Ans. The prompt () method displys a dialog box that prompts the visitor for input. It can take two arguments. The prompt () method returns the input value if the user clicks "OK". If the user clicks "cancel" the method returns null.
+ Syntax: prompt (text, default text).
 Q-20. How many arguments can prompt() take? What are those? Explain.
-Ans.
+Ans.Two arguments. 1. Prompt message 2. Optional placeholder.
 Q-21. What is decimal? Explain with an example.
-Ans.
+Ans.A fraction whose denominator is a power of ten and whose numerator is expressed by figures placed to the right of a decimal point. 
 Q-22.What is Hexadecimal? Explain with an example.
-Ans.
+Ans. A system of numerical notation that has 16 rather than 10 as it base.
 Q-23.How can you convert decimal to Hexadecimal?
 Ans.
 Q-24. What is Math.floor() in JavaScript? Explain with an example.
@@ -59,15 +62,15 @@ Ans.
 Q-29. Who defines standarization of JavaScript?
 Ans. ECMA (The European Computer Manufactures's Association).
 Q-30. Write some name of Browsers.
-Ans. 
+Ans. Mozilla FireFox, Internet Explorer, Opera mini, Google chrome, Safari.
 Q-31. What is generated JavaScript? Explain.
 Ans.
 Q-32. Write some names of generated JavaScript Tool.
-Ans.
+Ans. Macromedia Dreamweaver, Adobe GoLive,Microsoft FrontPage.
 Q-33. What are disadvantages of generated JavaScript?
-Ans.
+Ans. 1. Long code 2. It connect to an external js file 3. It's coding is complex 4. If user try to change/alert the code, code will loose automatically.
 Q-34. What is 'code bloat'?
-Ans.
+Ans. Code bloat is the production of code that is perceived as unnecessarily long, slow, or otherwise wasteful of resources. Code bloat can be caused by inadequacies in the language in which the code is written, the compiler used to compile it, or the programmer writing it.
 Q. JavaScript follows ECMA-262 standard, True or False?
 Ans. True
 Q-35. Why will you study JavaScript?
