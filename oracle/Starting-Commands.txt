@@ -1,0 +1,6 @@
+=========Connect to account======
+connect
+username: system
+password: sys
+=========To get all users========
+select USERNAME from SYS.ALL_USERS
