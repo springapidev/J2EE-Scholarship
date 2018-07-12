@@ -19,7 +19,8 @@ and open the template in the editor.
     <body>
         <h1>Form Validation</h1>
         <form name="myForm" action="formValidation.html"  onsubmit="return validateForm()" method="post">
-            Name: <input type="text" name="fname"><label id="fnamex"></label><br/>
+            Name: <input type="text" name="fname">
+            <label id="fnamex"></label><br/>
 
             Gender:<input type="radio" name="gender" value="Male" />Male
             <input type="radio" name="gender" value="Female"/>Female
@@ -50,9 +51,7 @@ and open the template in the editor.
                 var fname = document.forms["myForm"]["fname"].value;
 
                 var gender = document.forms["myForm"]["gender"].value;
-                var education = "";
-                var ssc = document.forms["myForm"]["ssc"].value;
-                var hsc = document.forms["myForm"]["hsc"].value;
+                var education = "";               
 
                 if (document.forms["myForm"].ssc.checked) {
                     education += document.forms["myForm"]["ssc"].value;
