@@ -37,12 +37,12 @@
 
             <input type="reset" value="Reset">
         </form>
-      
+
         <button onClick="validateForm()">Submit</button>
         <button onClick="closeWindow()">Close Window</button>
         <script>
             var win;
-          
+
             function closeWindow() {
                 win.close();
             }
@@ -66,29 +66,45 @@
                 if (fname == "") {
                     document.getElementById('fnamex').innerHTML = "Name must be filled out";
                     return false;
-                }else if (fname.length < 3) {
+                } else if (fname.length < 3) {
                     document.getElementById('fnamex').innerHTML = "Name Length at least 3 Characters";
                     return false;
                     ////////////////////////validation For Gender Field
-                } else if (gender == "") {
+                } else {
+                    document.getElementById('fnamex').innerHTML = "";
+                }
+
+                if (gender == "") {
                     document.getElementById('gender').innerHTML = "Tell Me Your Gender";
                     return false;
-                    ////////////////////////validation For Education Field
-                } else if (!document.forms["myForm"].ssc.checked && !document.forms["myForm"].hsc.checked) {
+
+                } else {
+                    document.getElementById('gender').innerHTML = "";
+                }
+                ////////////////////////validation For Education Field
+                if (!document.forms["myForm"].ssc.checked && !document.forms["myForm"].hsc.checked) {
                     document.getElementById('education').innerHTML = "Tell Me Your education";
                     return false;
                     ////////////////////////validation For Round Field
-                } else if (round == "Select A Round") {
+                } else {
+                    document.getElementById('education').innerHTML = "";
+                }
+
+                if (round == "Select A Round") {
                     document.getElementById('round').innerHTML = "Select Your Round";
                     return false;
                     ////////////////////////validation For Message Field
-                } else if (msg.length < 10) {
+                } else {
+                    document.getElementById('round').innerHTML = "";
+                }
+
+                if (msg.length < 10) {
                     document.getElementById('msg').innerHTML = "At least 10 characters";
                     return false;
                 } else {
                     win = window.open("", "", "width=400");
                     win.document.write("<h2><center>Form Output</center></h2><hr>");
-                    
+
                     win.document.write("Name: " + fname + "<br/>");
                     win.document.write("Gender: " + gender + "<br/>");
 
