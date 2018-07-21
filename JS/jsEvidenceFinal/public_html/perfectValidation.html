@@ -102,6 +102,9 @@
                     document.getElementById('msg').innerHTML = "At least 10 characters";
                     return false;
                 } else {
+                    document.getElementById('msg').innerHTML = "";
+
+                    //open new window
                     win = window.open("", "", "width=400");
                     win.document.write("<h2><center>Form Output</center></h2><hr>");
 
