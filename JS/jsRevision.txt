@@ -71,6 +71,12 @@ typeof {name:'john', age:34}//object
 typeof [1,2,3,4]//object
 typeof null//object
 typeof function myFunc(){};//function
+=============================================================================
+var x = "John";
+var y = new String("John");
+
+// typeof x will return string
+// typeof y will return object 
 
 
 
