@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+	<head>
+		<title>This is title of My Basic CCS | Internal CSS</title>
+		<!--Internal css -->
+		<style type="text/css">
+		#myTitle{
+				color : green;
+				font-size : 20px;
+				line-height : 25px;
+				text-align : center;
+		}
+		.mainDiv{
+				width : 80%;
+				background : red;
+				height : 500px;
+		}
+		p{				
+				color : blue;
+				font-size : 30px;
+				line-height : 25px;
+				text-align : center;
+				}	
+		
+		</style>
+	</head>
+	<body>
+		<h1 id="myTitle"> Hello Css </h1>
+		<div class="mainDiv"> </div>
+		<br/>
+		<div class="mainDiv"> </div>
+		<br/>
+		<div class="mainDiv"> </div>
+		
+		<p> Hello..............</p>
+		  <p>huh, it is good </p>
+		<!-- 
+			->style is the name of HTML tag and it has mandatory end tag.
+			->type is the attribute of style tag
+			-> text/css the avlue of attribute type.
+			-> we shall write css with style tag
+			->===================Now===================
+			-> id is the attribute of h1 tag and myTitle is the value of id attribute
+			-> class is the attribute of div tag and mainDiv is the value of class attribute
+			-> we can declare one ID only once in a HTML Page, example, myTitle can not be 
+			   value of any other id attribute
+			 -> we can declare / use  class attribute same value at many times.
+			 -> When id attribute will link to css , then it will be called 
+			    css selector and we shall write as follows:
+				<style type="text/css">
+				#myTitle{
+				css property : value for itself;
+				color : green;
+				font-size : 20px;
+				line-height : 25px;
+				text-align : center;
+				}				
+				</style>
+			 -> When clss attribute will link to css , then it will be called 
+			    css selector and we shall write as follows:
+				<style type="text/css">
+				.mainDiv{
+				css property : value for itself;
+				width : 80%;
+				background : red;
+				height : 500px;
+				}				
+				</style>
+		 -> html tag itself can be css selector, example
+		  <p> Hello..............</p>
+		  <p>huh, it is good </p>
+		  css is for html tag when it will use as selector...
+		  <style type="text/css">
+				p{				
+				color : blue;
+				font-size : 30px;
+				line-height : 25px;
+				text-align : center;
+				}				
+				</style>
+	</body>
+</html>
