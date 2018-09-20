@@ -24,13 +24,29 @@
 		.green{
 		background:green;
 		}
-		
+		.pink{
+		background:pink;
+		}
+		.orange{
+		background:orange;
+		}
+		.row{
+		height:100px;
+		width:100%;
+		}
 		</style>
 	</head>
 	<body>		
 		<div id="mainDiv"> 
 			<div class="col blue">1</div>
-			<div class="col red">1</div>
+			<div class="col red">
+				<div class="row orange">1</div>
+				<div class="row red">2</div>
+				<div class="row pink">3</div>
+				<div class="row blue">4</div>
+				<div class="row orange">5</div>
+			
+			</div>
 			<div class="col green">1</div>		
 		</div>			
 	</body>
