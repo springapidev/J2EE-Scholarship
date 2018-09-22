@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+	<head>
+		<title>PPT chater 3, If | If Else | IF ELSEIF ELSE </title>
+	<style type="text/css">
+	h1{color:red;}
+	h2{color:green;}
+	h3{color:blue;}
+	h4{color:orange;}
+	</style>
+	</head>
+	<body>
+			<!--1. Only If Block -->
+<script>
+var x=20;
+var y=15;
+if( x  > y){ // condition is true here, because 20 is greater 
+             //than 15
+document.write("<h1>X is Big</h1>");
+			}
+<!--2. If Else Block -->
+var p=20;
+var q=28;
+	if( p > q){ // condition is false here, because 20 is not greater 
+             //than 28, so else block will be executed
+document.write("<h2>P is Big</h2>");
+			}else{
+document.write("<h2>P not is Big</h2>");
+			}		
+	<!--3. If Else if Block, Many JODI...... -->	
+var nid=false;
+var passport=true;
+var studentID=false;	
+if(nid){
+document.write("<h3>You can enter into IDB, bcoz you have NID</h3>");
+}else if(passport){
+document.write("<h3>You can enter into IDB,, bcoz you have Passport</h3>");
+}else if(studentID){
+document.write("<h3>You can enter into IDB, bcoz you have student ID</h3>");
+}
+	<!--4. If- ELSE IF-ELSE Block -->	
+var nid=false;
+var passport=true;
+var studentID=false;	
+if(nid){
+document.write("<h4>You can enter into IDB, bcoz you have NID</h4>");
+}else if(passport){
+document.write("<h4>You can enter into IDB, bcoz you have Passport</h4>");
+}else if(studentID){
+document.write("<h4>You can enter into IDB, bcoz you have student ID</h4>");
+}else{
+document.write("<h4>You can not enter into IDB</h4>");
+}
+				
+			</script>
+
+	</body>
+</html>
