@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<head>
+		<title>PPT chater 3, If | If Else | IF ELSEIF ELSE </title>
+		<meta charset="UTF-8"/>
+	<style type="text/css">
+	h1{color:red;}
+	h2{color:green;}
+	h3{color:blue;}
+	h4{color:orange;}
+	</style>
+	</head>
+	<body>
+		<h4 id="display"></h4>
+		<form action="#">
+		NID: <input type="checkbox" id="nid" value="nid" />
+		PASSPORT: <input type="checkbox" id="passport" value="passport" />
+		STUDENT ID: <input type="checkbox" id="studentID" value="studentID"/>
+		<button type="submit" onclick="checkEntry()">Click Me</button>
+		</form>
+			<script>
+					var n = document.getElementById("nid").value;
+					var p = document.getElementById("passport").value;
+					var s = document.getElementById("studentID").value; 
+				function checkEntry(){				
+					if(n.checked || p.checked || s.checked){
+					document.getElementById("display").innerHTML= 'Welcome!';					
+					}else {
+					document.getElementById("display").innerHTML= 'Not Welcome!';
+					}				
+				}			
+				
+			</script>
+
+	</body>
+</html>
