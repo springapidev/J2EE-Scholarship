@@ -9,13 +9,18 @@ and open the template in the editor.
 */
 
 p{
-    color:red;
+    color:green;
     font-size: 40px;
     text-align: center;
-    font-style: italic;
-    line-height: 45px;
+   line-height: 45px;
 }
 
 ul {
     list-style-image: url('list-ic.png');  
+}
+
+abbr[title]{
+    border-bottom-style: dotted;
+    border-bottom-width: 5px;
+    
 }
