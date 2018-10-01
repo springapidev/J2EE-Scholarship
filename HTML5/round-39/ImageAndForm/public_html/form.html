@@ -8,8 +8,15 @@
     <body>
         <h2 id="display"></h2>
         <form>
+            <label>Password</label>
+            <input type="password" maxlength="10" minlength="6" placeholder="Enter Password........."/><br/>
+            <label>Photo</label>
+            <input type="file"/><br/>
+             <label>Date</label>
+             <input type="date"/><br/>             
+            
             <label>Name</label>
-            <input type="text" id="f"/><br/>
+            <input type="text"/><br/>
             <label>Email</label>
             <input type="email" /><br/>
             <label>Age</label>
@@ -43,14 +50,12 @@
             <label>Message</label><br/>
             <textarea></textarea>
             <br/>
-            <input type="submit" value="Click Me" onclick="check()"/>
+            <input type="submit" value="Click Me"/>
             <input type="button" value="Hit Me"/>
             <input type="reset" value="Reset"/>
+            <input type="image" src="image/btn.png"/>
+            
         </form>
-        <script>
-            function check(){
-            console.log(document.getElementById('f').value);
-            }
-        </script>
+
     </body>
 </html>
