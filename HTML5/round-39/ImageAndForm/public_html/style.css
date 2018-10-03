@@ -7,14 +7,25 @@ and open the template in the editor.
     Created on : Oct 1, 2018, 5:48:55 PM
     Author     : User
 */
+body{
+      background: lightgrey;  
+}
 #mainDiv{
     width: 80%;
     height: auto;
     margin: 0 auto;
+
 }
 .row{
     width: 100%;
     height: auto;
+    min-height: 50px;
+}
+.lightBlue{
+    background: #065;
+}
+.lightGreen{
+    background: red;
 }
 .leftCol{
     width: 30%;

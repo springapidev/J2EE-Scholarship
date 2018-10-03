@@ -1,0 +1,25 @@
+#mainDiv{
+    width: 100%;
+    min-height: 150px;
+    height: auto;
+    background: antiquewhite;
+}
+.row{
+    width: 100%;
+    height: auto;
+    min-height: 50px;  
+}
+.left{
+    width: 30%;
+    height: auto;
+    min-height: 100px;
+    background-color: aqua;
+    float: left;
+}
+.right{
+    width: 70%;
+    height: auto;
+    min-height: 100px;
+    background-color: white;
+    float: left;
+}
