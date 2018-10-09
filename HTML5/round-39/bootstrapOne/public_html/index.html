@@ -10,8 +10,65 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/bootstrap.css"/>
+        <style type="text/css">
+            table{
+                width:600px;
+                height: 300px;
+               
+            }
+            td{
+                border:1px solid red;
+            }
+        </style>
     </head>
     <body>
         <h1 class="text-info">Hi How are?</h1>
+        <table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>  
+            <tr>
+                <td>1</td>
+                <td rowspan="3">2</td>
+                <td rowspan="2" colspan="2">3</td>
+              
+                <td>5</td>
+                <td rowspan="3">6</td>
+                <td>7</td>
+            </tr>  
+            <tr>
+                <td>1</td>
+               
+               
+              
+                <td>5</td>
+               
+                <td>7</td>
+            </tr>  
+            <tr>
+                <td>1</td>
+               
+                <td>3</td>
+                <td rowspan="2">4</td>
+                <td rowspan="2">5</td>
+                
+                <td>7</td>
+            </tr>  
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                
+              
+                <td>6</td>
+                <td>7</td>
+            </tr>             
+        </table>
     </body>
 </html>
