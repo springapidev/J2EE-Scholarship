@@ -1,0 +1,23 @@
+How to Start Project for IDB Exam 1 ?
+Step-1: Select your website that you want to build.
+Step-2: Make a FOLDER name of your website.Example
+prothom-alo
+		/css/
+		/js/
+		/fonts/
+		/images/
+		/videos/
+		/pages/
+		index.html
+Step-3: Collect your necessary CSS file, JS file, 
+		fonts file and Images keep into relevant folder.
+Step-4: First Build Header, Footer and Overall layout at index.html file.
+Step-5:Add css file and Js file and Fonts css file into index.html
+Step-6: Now Build a layout
+Step-7: When layout is 100% complete, then copy this page 
+		and rename to your expected pages name.
+
+Step-1: I shall work each page to my needs/ demands.
+
+1. My website is https://www.bbc.com/bengali
+2. so my folder name is bbc
