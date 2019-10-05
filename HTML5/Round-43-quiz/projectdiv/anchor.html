@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+	<head>
+			<title>Div Example </title>
+		<style type="text/css">
+				#container{
+				width:800px;
+				height:1500px;
+				margin:0 auto;
+				background:green;				
+				}
+				.header{
+				width:800px;
+				height:50px;
+				background:red;
+				}
+				
+				.header-left{
+				width:200px;
+				height:50px;
+				background:green;
+				float:left;
+				}
+				.header-middle{
+				width:400px;
+				height:50px;
+				background:yellow;
+				float:left;
+				}
+				.header-right{
+				width:200px;
+				height:50px;
+				background:green;
+				float:left;
+				}
+				
+				.body{
+				width:800px;
+				height:1250px;
+				background:white;
+				}
+				
+				.body-left{
+				width:300px;
+				height:1250px;
+				background:#444;
+				float:left;
+				}
+				.body-content{
+				width:500px;
+				height:1250px;
+				background:#fff;
+				float:left;
+				}
+				
+				.footer{
+				width:800px;
+				height:150px;
+				background:red;
+				}
+				
+				.footer-left{
+				width:250px;
+				height:150px;
+				background:blue;
+				float:left;
+				}
+				.footer-middle{
+				width:300px;
+				height:150px;
+				background:red;
+				float:left;
+				}
+				.footer-right{
+				width:250px;
+				height:150px;
+				background:blue;
+				float:left;
+				}
+				
+				.copyright{
+				width:800px;
+				height:50px;
+				background:yellow;
+				}
+		</style>
+	</head>
+	<body>
+		<!--- step-1 start -->
+		<div id="container">
+			<!--- step-2 start -->
+			<div class="header" id="header"> 
+				<!--- step-3 start -->
+				<div class="header-left"> left </div>
+				<div class="header-middle"> 
+                       <a href="#copyright">Go to Bottom </a>
+
+
+				</div>
+				<div class="header-right"> Right </div>
+					<!--- step-3 end -->
+			</div>
+			<div class="body"> 
+				<!--- step-4 start -->
+				<div class="body-left">Left </div>
+				<div class="body-content"> 
+					<h2>Anchor Tag </h2>
+				<hr/>
+				<!--- anchor element a example- 1 -->	
+				<a href="https://www.google.com" target="_blank" title="Google Inc........."> Google Inc. </a>
+				
+				<!--- anchor element a example- 2 -->	
+				<hr/>
+				<a href="mailto:rajaul.cse@gmail.com" >Contact Us </a>
+				
+				<!--- anchor element a example- 3 -->	
+				<hr/>
+				<a href="#copyright">Contact Us </a>
+				
+				<!--- anchor element a example- 4 -->	
+				<hr/>
+			<a href="index.html" target="_blank" title="Div Example"> Div Example. </a>
+				<!--- anchor element a example- 5 -->	
+				<hr/>
+			<a href="nested/nestedlist.html" target="_blank" title="Nested List"> Nested List </a>
+				
+				
+				
+				</div>
+				<!--- step-4 end -->	
+			</div>
+			<div class="footer">
+				<!--- step-5 start -->
+				<div class="footer-left"> left </div>
+				<div  class="footer-middle"> Middle </div>
+				<div  class="footer-right"> right </div>
+				<!--- step-5 end -->
+
+			</div>
+			<div id="copyright" class="copyright"> copyright <a href="#header">Go to Top </a></div>		
+		
+			<!--- step-2 end -->
+		
+		</div>
+		<!--- step-1 end -->
+	</body>
+</html>

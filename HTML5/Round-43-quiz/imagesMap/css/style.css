@@ -1,0 +1,67 @@
+			
+			#container{
+		        width:600px;
+				height:400px;
+				background:red;
+                margin: 0 auto;				
+			}		
+			
+			.red{
+			background:red;
+			}
+			.blue{
+			background:blue;
+			}
+			
+			.green{
+			background:green;
+			}
+			.white{
+			background:white;
+			}
+			
+			.header{
+			 width:600px;
+			 height:80px;
+			}
+			
+			.body{
+			 width:600px;
+			 height:270px;
+			}
+			.footer{
+			 width:600px;
+			 height:50px;
+			}
+			
+			.logo{
+			 width:200px;
+			 height:80px;
+			 float:left;
+			 background:gray;
+			}
+			.header-title{
+			 width:400px;
+			 height:80px;
+			 float:left;
+			 background:yellow;
+			}
+			.body-left{
+			 width:150px;
+			 height:270px;
+			 float:left;
+			 background:#889;
+			}
+			.body-content{
+			 width:300px;
+			 height:270px;
+			 float:left;
+			 background:white;
+			}
+			
+			.body-right{
+			 width:150px;
+			 height:270px;
+			 float:left;
+			 background:green;
+			}
