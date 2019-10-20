@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Click Event</title>
+</head>
+<body>
+<h1 id="rs">0</h1>
+<button type="button" onClick="clickMe()">Click Me</button>
+<button type="button" onClick="makeButton()">Make Button</button>
+<script>
+var i=0;
+function clickMe(){	
+	i++;
+	document.getElementById("rs").innerHTML = i;
+	}
+function makeButton(){		
+for(var j = 1; j <= 10; j++){
+	var btn = "Button "+j;
+	document.write("<button type='button'>"+btn+"</button>");
+}
+	}	
+</script>
+</body>
+</html>

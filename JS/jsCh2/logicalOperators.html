@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Class js 2 Logical Operators</title>
+</head>
+<body>
+<script>
+/*
+AND && -> condtion 1 && condtion 2
+           True && True = True
+		   True && False = False
+		   False && True = False
+		   False && false = False
+		   
+OR || -> condtion 1 || condtion 2
+           True || True = True
+		   True || False = True
+		   False || True = True
+		   False || false = False		   
+
+NOT ! -> ! condtion
+			! x > y = F
+			! x < y = T
+IF(condtion)	If condition is true  then it will enter into body
+if( x > y ){
+	document.write("True");
+	}else{
+		document.write("False");
+		}	
+*/
+var m = parseInt(prompt("Enter Mark For JavaScript",""));
+/*if(m >= 33){
+	alert("Passed!");
+	}else{
+		alert("Failed!");
+		}
+*/		
+////////////// Grading Example
+if(m >= 0 && m <= 100 ){
+	if(m >= 80){
+		alert("A+!");
+		}else if(m >= 70){
+		alert("A");
+		}else if(m >= 60){
+		alert("A-");
+		}else if(m >= 50){
+		alert("B");
+		}else if(m >= 40){
+		alert("C");
+		}else if(m >= 33){
+		alert("D");
+		}else{
+		alert("F");
+		}
+}else{
+	alert("Mr. nahid Number is not allowed");
+	}
+
+</script>
+
+</body>
+</html>
