@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Js class 3 Literals</title>
+</head>
+
+<body>
+<script>
+var shopingCart = new Object();
+shopingCart.item=5.95;
+shopingCart.tax=0.06;
+shopingCart.shipping=14.95;
+var total = shopingCart.item + shopingCart.tax + shopingCart.shipping;
+document.write(shopingCart.item+"<br/>");
+document.write(total);
+document.write("<hr/>");
+var car = new Object();
+ car.name="Maroti";
+ car.color="RED";
+ car.price= 500000.0;
+ car.origin="Japan";
+ document.write("<hr/>");
+ var x; // undefine
+ x=10;
+ var y = x;
+ var z = x > y;
+var firstName="Mr.";// camelCase system
+document.write("<hr/>");
+ var m =10;
+ var n = " hello";
+ var rs = m + n;
+ var q = parseInt(rs);
+ document.write(q);
+ document.write("<hr/>");
+  var rs2 = n +"                  "+ m;
+ //var q2 = parseInt(rs2);
+ document.write(rs2);
+</script>
+&nbsp;
+</body>
+</html>

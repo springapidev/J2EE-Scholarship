@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <title>TODO supply a title</title>
@@ -13,26 +8,41 @@ and open the template in the editor.
     <body>
         <div>TODO write content</div>
         <script>
-            var p = 10;
+            var p = 10;// p is global variable
             
             function simpleFunction(x, y) {
-                var z = x + y;
+                var z = x + y;// z is local variable
                 document.write(z);
                 document.write("<hr/>");
                 document.write(p);
             }
             simpleFunction(5, 3);
             document.write("<hr/>");
-            document.write(z);
+           // document.write(z);
             
             document.write("<hr/>");
             
             function simple() {
-                var n = 10;
+                var n = 10000;
                 return n;
             }
             var m = simple();
             document.write(m);
+			  document.write("<hr/>");
+			// let's create a block
+			 {
+				var x=100;// global scope
+				document.write(x); 
+				 } 
+			  document.write(x); 
+			  document.write("<hr/>");
+			// let's create a block
+			 {
+				let y = 500;// local scope
+				document.write(y); 
+				 } 
+			
+			  
         </script>
     </body>
 </html>

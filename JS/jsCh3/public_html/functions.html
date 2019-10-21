@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Function</title>
+</head>
+
+<body>
+<script>
+/*
+function is a block of code that can complete a particular task.
+*/
+function sayHi(){
+	document.write("Hello..........................");
+	}
+	sayHi();
+	document.write("<hr/>");
+	// sayHello has a parameter /argument
+	function sayHello(msg){
+	document.write(msg);
+	}
+	// at the time calling , you must provide a value
+	sayHello("Hello Students");
+	document.write("<hr/>");
+	// sayHello has a parameter /argument
+	function sayHello(msg){
+	return msg;
+	}
+	// at the time calling , you must provide a value	
+	document.write(sayHello("Hello Students"));
+	
+	document.write("<hr/>");
+	function add(n1, n2){
+		var sum = n1 + n2;
+		return sum;
+		}
+	var getSum = add(10,5);
+	document.write(getSum);
+</script>
+</body>
+</html>
