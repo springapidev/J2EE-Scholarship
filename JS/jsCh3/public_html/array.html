@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Arrays</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
@@ -9,37 +9,50 @@
         <div>TODO write content</div>
         <script>
             //Here students is an Array
-            var students = ['Arefin', 'Mehedee', 50, 60, 70];
+			// Array is special type of variable that can hold more than one value at a time.
+			// Array Index stars with 0 (Zero)
+			// Array fixed in size
+			// Array symbol []
+            var students = ['Rizvy', 'Maria', 50, 60, 70];
             // document.write([students]);
-
             for (i = 0; i < students.length; i++) {
                 document.write(students[i] + "<br/>");
-            }
-
-            ////////////////////////////////////////////////////////////////////
-            var stds = new Array(5);
+            }            ////////////////////////////////////////////////////////////////////
+            var stds = new Array(9);
             document.write(stds.length);
-            stds[0] = 'Zakir';
-            stds[1] = 'Jobaer';
-            stds[2] = 'Mahabub';
+            stds[0] = 'Bari';
+            stds[1] = 'Habib';
+            stds[2] = 'Milton';
             stds[3] = 50;
-            stds[4] = 'Rekha';
-            stds[5] = 'Mita';
+            stds[4] = 'Romana';
+            stds[5] = 'Rasel';
+			stds[6] = 'Sawna';
+			stds[7] = 'Safayet';
+			 stds[8] = 'Forruk';
+			 stds[9]= 'Mizan';
             document.write([stds]);
             document.write(stds.length);
+			 document.write(stds[5]);
             ///////////////////////////way-3///////////////////////////
-
+//Associative array
+// Array is an Object
             var student = {firstName: 'Arefin', lastName: 'Islam', age: 23, gender: 'Male'};
             document.write(student.firstName);
+			document.write([student]);
             /////////////////Array:join()//////////////////////
             document.write("<hr/>");
             var trees = new Array("Elm", "Pine", "Oak");
-            var bigBush = trees.join(" ");
+            var bigBush = trees.join("; ");
             document.write(bigBush);
-
+  			document.write("<hr/>");
             document.write(typeof trees);
             document.write(typeof bigBush);
-
+            
+			document.write("<hr/>");
+            var ranks = new Array("Rajib", "Habib", "Kabib");
+            var bigRank = ranks.join(" Chowdury,");
+            document.write(bigRank+" Chowdury");
+  			document.write("<hr/>");
 
 ////////////////////toString///////////////////
             document.write("<hr/>");
@@ -55,14 +68,18 @@
 
             var trees1 = new Array("Elm", "Pine", "Oak");
             var trees2 = new Array("Amm", "Jam");
+			 var trees3 = new Array("Sal", "Sundori");
             var biggBush = trees1.concat(trees2);
-            document.write(typeof biggBush);
-            document.write(biggBush + "<br/>");
+			var sundorban = biggBush.concat(trees3);
+            document.write(typeof sundorban);
+            document.write(sundorban + "<br/>");
 
 
             ///////////////////////////Array.Sort() and Array.reverse()/////////////////////
             document.write("<hr/>");
-            var studentx = ['Arefin', 'Mehedee', 50, 60, 70];
+            var studentx = ['BD', 'Nepal', 'Butan','China', 'Japan','Australia'];
+			  document.write(studentx);
+			   document.write("<hr/>");
             studentx.sort();
             document.write(studentx);
 
@@ -74,9 +91,14 @@
             ///////////////////////////Array.slice() /////////////////////
             document.write("<hr/>");
             var studentss = ['Arefin', 'Mehedee', 50, 60, 70, 8, 89, 90];
+			//2 means start from index 2 and 4 means before index 4
             document.write(studentss.slice(2, 4) + "<br/>");
+			// 4 means start from index 4 and all........
             document.write(studentss.slice(4) + "<br/>");
+			//-1 means last one
             document.write(studentss.slice(-1) + "<br/>");
+			//-3 means last 3's
+            document.write(studentss.slice(-3) + "<br/>");
             document.write(studentss.slice(0, 2) + "<br/>");
             ///////////////////////////Array.push() /////////////////////
             document.write("<hr/>");

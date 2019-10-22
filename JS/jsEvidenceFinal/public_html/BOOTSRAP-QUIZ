@@ -1,0 +1,166 @@
+Question 1:
+Bootstrap 3 is mobile-first.
+A.True    
+B. False
+________________________________________
+Question 2:
+Which class provides a responsive fixed width container?
+A. .container    
+B. .container-fluid
+C. .container-fixed
+________________________________________
+Question 3:
+Which class provides a full width container, spanning the entire width of the viewport?
+A. .container-fluid       
+B. .container
+C. .container-fixed
+________________________________________
+Question 4:
+The Bootstrap grid system is based on how many columns?
+A. 12     
+B. 3
+C. 9
+D. 6
+________________________________________
+Question 5:
+Which class adds zebra-stripes to a table?
+A. .table-striped  
+B. .table-bordered
+C. .even and .odd
+D. .table-zebra
+________________________________________
+Question 6:
+Which class shapes an image to a circle?
+A. .img-circle       
+B. .img-round
+C. .img-rounded
+D. .img-thumbnail
+________________________________________
+Question 7:
+Which class is used to create a big box for calling extra attention?
+A. .jumbotron       
+B. .bigbox
+C. .container
+________________________________________
+Question 8:
+Which button class is used to create a large button?
+A. .btn-lg       
+B. .btn-xl
+C. .btn-large
+D. .btn-l
+________________________________________
+Question 9:
+Which class is used to create a button group?
+A. .btn-group       
+B. .button-group
+C. .group-btn
+D. .group-button
+________________________________________
+Question 10:
+How can you insert a search icon?
+A. <span class="glyphicon glyphicon-search"></span>       
+B. <span class="glyphicon-search"></span>
+C. <span class="glyphicon search"></span>
+D. <span class="glyph glyph-search"></span>
+________________________________________
+Question 11:
+Which class is used to create a badge?
+A. .badge       
+B. .tag
+C. .flag
+D. .label
+________________________________________
+Question 12:
+Which class is used to create a basic pagination?
+A. .pagination       
+B. .navigation
+C. .pages
+D. .page
+________________________________________
+Question 13:
+Which class is used to create a basic list group?
+A. .group-list       
+B. .list-group       
+C. .grouped-list
+________________________________________
+Question 14:
+Which class adds a heading to a panel?
+A .panel-header       
+B .panel-heading       
+C .panel-footer
+D .panel-head
+________________________________________
+Question 15:
+Which class indicates a dropdown menu?
+A .dropdown       
+B .dropdown-list
+C .select
+________________________________________
+Question 16:
+A standard navigation tab is created with:
+A <ul class="nav nav-navbar">       
+B <ul class="navigation-tabs">
+C <ul class="nav tabs">
+D <ul class="nav nav-tabs">       
+________________________________________
+Question 17:
+A standard navigation bar is created with:
+A <nav class="navbar navbar-default">       
+B <nav class="nav navbar">
+C <nav class="navbar default-navbar">
+D <nav class="navigationbar navbar-default">
+________________________________________
+Question 18:
+Which class is used to create a black navigation bar?
+A .navbar-dark       
+B .navbar-black
+C .navbar-default
+D .navbar-inverse       
+________________________________________
+Question 19:
+Which plugin is used to cycle through elements, like a slideshow?
+A Carousel       
+B Scrollspy
+C Slideshow
+D Orbit
+________________________________________
+Question 20:
+Which plugin is used to create a modal window?
+A Modal       
+B Popup
+C Window
+D Dialog Box
+________________________________________
+Question 21:
+Which plugin is used to create a tooltip?
+A Tooltip       
+B Modal
+C Dialog Box
+D Popup
+________________________________________
+Question 22:
+Which contextual class indicates a succesful or positive action?
+A .text-success       
+B.text-info
+C .text-warning
+D .text-primary
+________________________________________
+Question 23:
+Which contextual class indicates a dangerous or potentially negative action?
+A .text-danger       
+B .text-primary
+C .text-warning
+D .text-info
+________________________________________
+Question 24:
+Which class indicates uppercased text?
+A .text-uppercase       
+B .ucase
+C .uppercase
+D .text-capitalize
+________________________________________
+Question 25:
+The Bootstrap grid system works across multiple devices.
+A True       
+B False
+
