@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+
+    
         <script>
             // + Add Or Concatenate Operator
             var x = 10;
@@ -21,7 +23,7 @@
             // - Substract Or negative/negation Operator
             var p = 10;
             var q = -p;
-            var result2 = p - q;
+            var result2 = p - q;// 10 - (-10) // 10+10=20
             document.write("Result(P-Q): " + result2 + "<br/>");
             document.write("<hr/>");
             // * multiply Operator
@@ -37,11 +39,65 @@
             document.write("Result(X%Y): " + result5 + "<br/>");
             document.write("<hr/>");
             // ++ increment, -- decrement Operator
-            ++x;//Pre-Increment
-            --y;//Pre-Decrement
-            p++;//Post-Increment
-            q--;//Post-Decrement
+			var x=100;var y=200;
+            ++x;//Pre-Increment 101
+            --y;//Pre-Decrement 199
+            x++;//Post-Increment 101
+			//x=102
+            y--;//Post-Decrement 199
+			// y = 198
+			
+			var k=10;
+			k++; //10
+			document.write(k);//11
+			k++;//11
+			k++;//12
+			++k;//14
+			document.write(k); //14
+			k++;//14
+			--k;//13
+			document.write(k);//13
+			--k;//12
+			k--;//12
+			k++;//11
+			document.write(k);//12
+			
+			var m = 10;//10
+			m +=5;// m = m+ 5, 10+5,15
+			m--;//15
+			m++;//14
+			m-=5;//10
+			m *=2;//20
+			++m;//21
+			--m;//20
+			document.write(m);//20
+			
+			var s=20;//20
+			document.write(s);//20
+			s--;//20
+			document.write(s);//19
+			++s;//20
+			document.write(s);//20
+			s-=3;//17
+			document.write(s);//17
+			s++;//17
+			s-=2;//16
+			s+=1;//17
+			document.write(s);//17			
+			
             document.write("X: " + x + " Y: " + y + "P:" + p + "Q:" + q + "<br/>");
+			//////////// Ternary Operator ? //////////
+			
+			var n1=10;
+			var n2= 5;
+		
+		var rss = n1 < n2 ? 'Yes.....' : 'no...';
+			document.write(rss);
+			
+			
+			
+			
+			
             document.write("<hr/>");
             // < Less Than Operator
             var result6 = x < y;

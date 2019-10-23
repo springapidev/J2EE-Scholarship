@@ -61,11 +61,8 @@
             var newNames = names.toString();
             document.write(newNames);
             document.write(typeof newNames);
-
-
 ////////////////////Concat array////////////////////////
             document.write("<hr/>");
-
             var trees1 = new Array("Elm", "Pine", "Oak");
             var trees2 = new Array("Amm", "Jam");
 			 var trees3 = new Array("Sal", "Sundori");
@@ -82,13 +79,10 @@
 			   document.write("<hr/>");
             studentx.sort();
             document.write(studentx);
-
             document.write("<hr/>");
-
             studentx.reverse();
             document.write(studentx);
-
-            ///////////////////////////Array.slice() /////////////////////
+            ///////////////////////////Array.slice() 
             document.write("<hr/>");
             var studentss = ['Arefin', 'Mehedee', 50, 60, 70, 8, 89, 90];
 			//2 means start from index 2 and 4 means before index 4
@@ -117,9 +111,19 @@
 
 //First e 1ta add kore
             countries.unshift('BDx');
-            document.write(countries + "<br/>");
+            document.write(countries + "<br/><hr/>");
 
-          
+          var arr =['A','B','C','D'];
+		  arr.splice(1,0,'K');
+		  document.write(arr);
+		   document.write("<hr/>");
+		   arr.splice(0,3,'K');
+		  document.write(arr);
+		   document.write("<hr/>");
+		   var arr2 =['A','B','C','D'];
+		   arr2.splice(2,1,'Q');
+		  document.write(arr2);
+		  
         </script>
     </body>
 </html>

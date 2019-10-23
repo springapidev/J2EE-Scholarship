@@ -1,0 +1,14 @@
+Quiz-7:
+1. create an array named countries with the elements, Bangladesh, USA, Russia,
+ Iran, UK and print
+ 2. Add a new country Canada end of the countries array and print
+ 3. Remove first 2 elements from the array countries and print
+ 4. cut Iran from the array and display.
+ 5. Add a new country Bangladesh beggining of the countries array and print
+ 6. print the country at index 2
+ 7. check the type of array countries
+ 8. convert countries as string and prove it.
+ 9. create another array named westernCountries with the elements France, Germany
+ 10. combine two arrays and display
+ 11. print length of countries
+ 

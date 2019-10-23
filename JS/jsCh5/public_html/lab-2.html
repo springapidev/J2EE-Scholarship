@@ -7,6 +7,15 @@
     </head>
     <body>
         <script>
+		/*
+		while(expression / condition){
+			
+			/................
+			............
+			increment/decrement
+			}
+		
+		*/
             var counter = 0;//Sequence
             var endIt = 10;
             while (counter <= endIt) {//Loop Begins
@@ -19,7 +28,45 @@
 
                 document.write("After Increment" + counter + "<br/>");
             }//Loop ends
+  document.write("After Completation" + counter + "<br/>");
+  
+  document.write("<hr/>");
+  
+  var i=50;
+  // print 1 to 10
+  while(i >= 20){
+	  document.write(i+", ");  
+	  i--;
+  }
+  
+   document.write("<hr/>");
+  // print 1 number to 10 using function
+  function printNumbers(sn, en){	
+		while(sn <= en){
+			 document.write(sn+", ");  
+			 sn++;
+			} 
+		 }
 
+  printNumbers(1,10);
+     document.write("<hr/>");
+   // print starting number to ending number using function
+  function printNumbers(sn, en){
+	 if(sn < en){
+		while(sn <= en){
+			 document.write(sn+", ");  
+			 sn++;
+			} 
+		 }else if(en < sn){
+		while(en <= sn){
+			 document.write(en+", ");  
+			 en++;
+			} 
+		 }else{
+			 document.write(sn);  
+			 }
+  }
+  printNumbers(100,100);
         </script>
     </body>
 </html>
