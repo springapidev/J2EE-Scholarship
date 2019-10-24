@@ -25,6 +25,8 @@
             for (sn; sn <= en; sn++) {
                 sum2 += sn;
             }
+			
+			document.write(sn);
             document.write("Sum using For Loop: " + sum2);
 
             document.write("<hr/>");
@@ -46,13 +48,14 @@
             }
             document.write("Sum using For In Loop: " + sum4);
             document.write("<hr/>");
-            var students = ['mahbub', 'Mehedee', 'sofiqul', 'mortoza', 'mustafiz'];
+            var students = ['Bari', 'Maria', 'Mizanur', 'Farruk', 'Milton'];
            
             for (var i in students) {
-                if (students[i] == 'mahbub' || students[i] == 'mortoza') {
-                    continue;
+                if (students[i] == 'Farruk' ) {
+					 document.write("Found" + "<br/>");
+                    break;
                 }
-                document.write(students[i] + "<br/>");
+               
             }
 
         </script>

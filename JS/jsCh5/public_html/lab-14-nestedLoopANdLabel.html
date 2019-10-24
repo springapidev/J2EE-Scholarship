@@ -11,10 +11,10 @@
         <script>
             var teamJ = "";
             var teamMember = 0;
-            team:
-                    for (var outCount = 1; outCount < 3; outCount++) {
-                jersey:
-                        for (var inCount = 20; inCount < 35; inCount++) {
+ team:
+ for (var outCount = 1; outCount < 3; outCount++) {
+jersey:
+for (var inCount = 20; inCount < 35; inCount++) {
                     if (inCount == 22 || inCount == 29 ) {
                         continue jersey;
                     }
@@ -26,6 +26,30 @@
                 }
             }
             document.write(teamJ);
+			
+			
+			
+			 document.write("<hr/>");
+			outerloop:
+			for(var i=1; i <= 2; i++){
+				
+				for(var j=1; j <= 100; j++){	
+				if(j == 21){
+					document.write("<br/>");
+					continue outerloop;
+				}
+				document.write("="+" ");
+				}
+				
+			}
+			
+			
+			
+			
+			
+			
+			
+			
         </script>
 
     </body>

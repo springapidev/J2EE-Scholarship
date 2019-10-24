@@ -12,12 +12,38 @@
             var endIt = 10;
             while (counter <= endIt) {//Loop Begins
                 counter++;
-                if (counter <= 5 || counter == 9) {
+                if (counter <= 5 || counter > 8) {
                     continue;
                 }
                
                 document.write("Rs: " + counter + "<br/>");
             }//Loop ends
+			document.write("<hr/>");
+			 //1 theke10 porjonto, but not 5
+            var counter = 0;//Sequence
+            var endIt = 10;
+            while (counter <= endIt) {//Loop Begins
+                counter++;
+                if (counter == 5 || counter == 7 || counter == 9) {
+                    continue;
+                }
+               
+                document.write("Rs: " + counter + "<br/>");
+            }//Loop ends
+	document.write("<hr/>");
+			 //1 theke10 porjonto, but not 5
+            var counter = 0;//Sequence
+            var endIt = 10;
+            while (counter <= endIt) {//Loop Begins
+                counter++;
+                if (counter == 5 ) {
+                    break;
+                }
+               
+                document.write("Rs: " + counter + "<br/>");
+            }//Loop ends
+
+
 
         </script>
     </body>
