@@ -26,9 +26,9 @@
 
             Round<select name="round">
                 <option value="Select A Round" selected="selected">Select A Round</option>
-                <option value="Round 36">Round-36</option>
-                <option value="Round 37">Round-37</option>
-                <option value="Round 38">Round-38</option>
+                <option value="Round 39">Round-39</option>
+                <option value="Round 40">Round-40</option>
+                <option value="Round 43">Round-43</option>
             </select>
             <label id="round"></label><br/>
 
@@ -39,7 +39,7 @@
         </form>
         <button onClick="openWindow()">Open Window</button>
         <button onClick="validateForm()">Submit</button>
-        <button onClick="closeWindow()">Close Window</button>
+        <button onClick="closeWindow()">Close Window</button> 
         <script>
             var win;
             function openWindow() {
@@ -73,30 +73,42 @@
                     document.getElementById('fnamex').innerHTML = "Name Length at least 3 Characters";
                     return false;
                     ////////////////////////validation For Gender Field
-                } else if (gender == "") {
+                } else {
+                    document.getElementById('fnamex').innerHTML = "";
+                }
+
+                if (gender == "") {
                     document.getElementById('gender').innerHTML = "Tell Me Your Gender";
                     return false;
-                    ////////////////////////validation For Education Field
-                } else if (!document.forms["myForm"].ssc.checked && !document.forms["myForm"].hsc.checked) {
+
+                } else {
+                    document.getElementById('gender').innerHTML = "";
+                }
+                ////////////////////////validation For Education Field
+                if (!document.forms["myForm"].ssc.checked && !document.forms["myForm"].hsc.checked) {
                     document.getElementById('education').innerHTML = "Tell Me Your education";
                     return false;
                     ////////////////////////validation For Round Field
-                } else if (round == "Select A Round") {
+                } else {
+                    document.getElementById('education').innerHTML = "";
+                }
+                if (round == "Select A Round") {
                     document.getElementById('round').innerHTML = "Select Your Round";
                     return false;
                     ////////////////////////validation For Message Field
-                } else if (msg.length < 10) {
+                } else {
+                    document.getElementById('round').innerHTML = "";
+                }
+                if (msg.length < 10) {
                     document.getElementById('msg').innerHTML = "At least 10 characters";
                     return false;
                 } else {
-                    
+                    document.getElementById('msg').innerHTML = "";
                     win.document.write("Name: " + fname + "<br/>");
                     win.document.write("Gender: " + gender + "<br/>");
-
                     win.document.write("Education: " + education + "<br/>");
                     win.document.write("Round: " + round + "<br/>");
                     win.document.write("Comments: " + msg + "<br/>");
-					 win.document.write("<hr/>");
                 }
             }
         </script>
